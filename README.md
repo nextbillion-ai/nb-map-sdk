@@ -8,8 +8,7 @@ The Herald SDK is a robust toolkit designed to facilitate seamless interaction b
 - **Error Handling:** Advanced error handling mechanisms for robust applications.
 - **Version Compatibility:** Ensures compatibility with different versions of the Herald server.
 
-## Getting Started
 ### Prerequisites
-- Golang version 21.4 or higher.
-- Node.js version 20.9.0 or higher.
+- Golang version 21.4 or lower.
+- Node.js version 18 or lower.
 
