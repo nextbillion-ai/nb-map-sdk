@@ -11,4 +11,3 @@ All notable changes to the Herald SDK will be documented in this file.
 For more information, visit our [Getting Started](getting_started.md) guide.
 
 
-#test
