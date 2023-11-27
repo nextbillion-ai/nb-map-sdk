@@ -2,6 +2,7 @@ package client
 
 import (
     "net/http"
+    "github.com/nextbillion-ai/nb-optimization-interface"
 )
 
 type Client struct {
