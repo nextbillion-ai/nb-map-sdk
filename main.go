@@ -17,7 +17,8 @@ func mkUint64Ptr(value uint64) *uint64 {
 
 func main() {
 	apikey := os.Getenv("APIKEY")
-	sdkClient := client.NewClient("https://api.nextbillion.io", apikey)
+	baseUrl := os.Getenv("BASEURL")
+	sdkClient := client.NewClient(baseUrl, apikey)
 	/*
 			{
 		  "locations": {
@@ -49,8 +50,8 @@ func main() {
 	input := structs.OptimizationPostInput{
 		Locations: structs.Locations{
 			Id:              50,
-			AnyTypeLocation: "19.38972030,-99.14369731|19.42566371,-99.17081981|19.42436859,-99.13374095",
-			Location:        "19.38972030,-99.14369731|19.42566371,-99.17081981|19.42436859,-99.13374095",
+			AnyTypeLocation: "12.995431,77.491535|13.007678,77.571308|13.003177,77.619232",
+			Location:        "12.995431,77.491535|13.007678,77.571308|13.003177,77.619232",
 		},
 		Vehicles: []structs.Vehicle{
 			{
